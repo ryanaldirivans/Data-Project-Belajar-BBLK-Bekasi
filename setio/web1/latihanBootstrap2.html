@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tampilan Bootstrap</title>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="row">
+	  <div class="p-5 col-12 border text-center bg-primary text-white">Header</div>
+	</div>
+	
+
+	<!-- ini adalah navbar -->
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  
+	<img src="earth.png" height="50px">
+	<a class="navbar-brand">Logo</a>
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 2</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Dropdown link
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<br>
+  <div class="container">
+  <h3>Navbar With Dropdown</h3>
+  <p>This example adds a dropdown menu in the navbar.</p>
+</div>
+	  <div class="col-12 col-md-6 border text-center bg-warning text-white" style="min-height: 300px">Content</div>
+	  <div class="col-12 col-md-6 border text-center bg-warning text-white">Banner</div>
+	  <div class="col-12 border text-center bg-secondary text-white">Footer</div>
+
+</body>
+</html>
