@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 <body>
+
   <!-- ini awal carousel -->
   <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -38,7 +39,7 @@
   </div>
   <!-- ini akhir carausel -->
 
-  <div class= "countainer-fluid">
+  <div class= "container-fluid">
     <div class="row">
       <div class= "col-12 bg-primary text-light">
         <!-- <img src="assets/images/macaron.jpg" alt=""> -->
@@ -47,21 +48,18 @@
        </div>
 
        <!-- awal navbar -->
-       <nav class="navbar col-12 navbar-expand-lg navbar-light sticky-top" style="background-color: #ff66b3;">
+       <nav class="navbar col-12 navbar-expand-lg navbar-light sticky-top " style="background-color: #ff66b3; padding-left: 15px; margin-right: 10px">
         <a class="navbar-brand" href="LatihanBootstrap4.html">Navigation</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="LatihanBootstrap4.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="facilities.html">Facilities</a>
-            </li>
             <li class="nav-item ">
-              <a class="nav-link active" href="guestbook.html">Guest Book</a>
+              <a class="nav-link active" href="table.html">Data Komentar</a>
             </li>    
           </ul>
           <form class="form-inline my-2 my-lg-0 ">
@@ -71,9 +69,9 @@
         </div>  
       </nav>
       <!-- ini adalah data komentar -->
-      <div class="container">
+      <div class="container" style="padding-top: 20px">
         <h2 align="center">Data Komentar</h2>
-        <table class="table">
+        <table class="table table-hover">
           <thead class="text-light" style="background-color: #994d00;">
             <tr>
               <th scope="col">No</th>
@@ -86,10 +84,10 @@
             <tr>
               <th scope="row">1</th>
               <td>Aziz</td>
-              <td>Aziz2001@gmail.com</td>
+              <td>aziz2001@gmail.com</td>
               <td>Enak sekali kak kue nya!</td>
             </tr>
-            <tr>
+            <tr >
               <th scope="row">2</th>
               <td>Anisa Dian</td>
               <td>anisadian23@gmail.com</td>
@@ -109,7 +107,7 @@
             </tr>
           </tbody>
         </table>
-
+        <!-- ini akhir komentar -->
       </div>
 
       <!-- ini adalah banner sebelah kanan -->
