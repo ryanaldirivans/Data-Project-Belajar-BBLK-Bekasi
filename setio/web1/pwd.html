@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Password</title>
+	<style type="text/css">
+		#show-password {
+			background: url('eye.png');
+			width: 32px; height: 16px; cursor: pointer;
+			vertical-align: middle; display: inline-block;
+		}
+
+		#show-password:hover {
+			background-position-y: -16px; 
+		}
+	</style>
+</head>
+<body>
+	<input type="password" id="password" placeholder="Password"/>
+	<span id="show-password"></span>
+	<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#show-password").hover(
+				function(){
+					$('#password').attr('type','text');
+				},
+				function(){
+					$('#password').attr('type','password');
+				}
+
+				);
+		});
+	</script>
+</body>
+</html>
