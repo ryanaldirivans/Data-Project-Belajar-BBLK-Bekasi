@@ -4,6 +4,13 @@ if(isset($_POST['hitung'])){
 	$harga_barang = $_POST['harga_barang'];
 	$jumlah_barang = $_POST['jumlah_barang'];
 	$total_harga = $harga_barang*$jumlah_barang;
+	if($jumlah_barang>=10){
+		$diskon = 0.05*$total_harga;
+	}else{
+		$diskon = 0;
+	}
+	$grandTotal = $total_harga-$diskon;
+
 }else {
 	$nama_barang = "";
 	$harga_barang = "";
@@ -106,8 +113,12 @@ if(isset($_POST['hitung'])){
 							<input type="number" class="form-control"  name="jumlah_barang" value="<?php echo $jumlah_barang;?>" readonly>
 						</div>
 						<div class="form-group">
-							<label for="total">Total:</label>
+							<label for="total">Total Harga:</label>
 							<input type="number" class="form-control" name="total_harga" value="<?php echo $total_harga;?>" id="total_harga" readonly>
+						</div>
+						<div class="form-group">
+							<label for="">Diskon:</label>
+							<input type="number" class="form-control" name="diskon" value="<?php echo $diskon;?>" id="diskon" readonly>
 						</div>
 						<div class="form-group">
 							<label for="bayar">Uang Bayar:</label>
