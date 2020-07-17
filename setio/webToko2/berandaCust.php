@@ -1,0 +1,4 @@
+<div>
+	<h2 align="center">Halaman Depan Customer</h2>
+	<p align="justify"><b>Ini adalah halaman Beranda Customer</b><br> consectetur adipisicing elit. Delectus officia laborum tenetur atque libero nobis, molestiae sapiente id ipsam culpa dolorum, eos inventore cum facere numquam, non adipisci sint autem beatae. Blanditiis, culpa aperiam? Sint, aut quos deserunt rerum, repellat impedit labore, omnis exercitationem adipisci sit in. Atque vero, voluptates eaque aliquid ipsa, ratione illo repellat inventore, consequatur, iste ab dignissimos. Veniam debitis esse ut atque, aliquid accusamus labore! Ipsa porro cumque laudantium, ab, similique eos. Quis itaque aspernatur illum laborum inventore eius illo tempora consectetur assumenda nostrum, nihil quisquam, iste! Ullam quisquam corporis doloribus repellendus iste, impedit fugiat distinctio.</p>
+</div>
